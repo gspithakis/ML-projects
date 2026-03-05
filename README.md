@@ -156,13 +156,13 @@ jupyter notebook
 Then open:
 
 ```
-boids-simulation/boids.ipynb
+knn-song-classification/kNN.ipynb
 ```
 
 or
 
 ```
-knn-song-classification/kNN.ipynb
+boids-simulation/boids.ipynb
 ```
 
 ---
