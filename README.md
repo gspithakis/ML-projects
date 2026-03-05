@@ -46,6 +46,8 @@ This notebook implements a **machine learning pipeline for classifying songs** b
 
 The model uses the **k-Nearest Neighbors (kNN)** algorithm to classify songs based on similarity in feature space.
 
+All datasets used in this project were publicly available and sourced from **Kaggle**.
+
 ---
 
 ## Machine Learning Pipeline
@@ -112,7 +114,9 @@ Location:
 boids-simulation/boids.ipynb
 ```
 
-This notebook implements a **Boids simulation**, an agent-based model that reproduces flocking behavior observed in birds and fish.
+This notebook implements a **Boids simulation**, an agent-based model that reproduces flocking behavior.
+
+The project was inspired by the idea of approximating flocking behavior observed in birds and fish, using **K-Nearest Neighbors algorithms**.
 
 The model is based on three fundamental rules applied to each agent:
 
