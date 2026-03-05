@@ -2,7 +2,6 @@
 
 ![Python](https://img.shields.io/badge/python-3.x-blue)
 ![Machine Learning](https://img.shields.io/badge/machine-learning-green)
-![Status](https://img.shields.io/badge/status-active-success)
 
 This repository contains small **applied machine learning and computational modeling projects** implemented in Python.
 
@@ -13,13 +12,13 @@ The goal is to explore practical ML techniques and simulation methods through **
 # Repository Structure
 
 ```
-applied-ml-projects
-│
-├── boids-simulation
-│   └── boids.ipynb
+ML-projects
 │
 ├── knn-song-classification
 │   └── kNN.ipynb
+│
+├── boids-simulation
+│   └── boids.ipynb
 │
 └── README.md
 ```
@@ -30,53 +29,12 @@ applied-ml-projects
 
 | Project | Description | Techniques |
 |------|------|------|
-| **Boids Simulation** | Agent-based simulation of flocking behavior | neighbor search, swarm modeling |
 | **Song Classification** | Music genre classification using kNN | supervised learning, feature scaling |
+| **Boids Simulation** | Agent-based simulation of flocking behavior | neighbor search, swarm modeling |
 
 ---
 
-# Project 1 — Boids Flocking Simulation
-
-Location:
-
-```
-boids-simulation/boids.ipynb
-```
-
-This notebook implements a **Boids simulation**, an agent-based model that reproduces flocking behavior observed in birds and fish.
-
-The model is based on three fundamental rules applied to each agent:
-
-1. **Separation** — avoid crowding neighbors  
-2. **Alignment** — match velocity with nearby agents  
-3. **Cohesion** — move toward the local center of mass
-
-These simple rules produce **emergent collective behavior**.
-
----
-
-## Technologies
-
-- Python
-- NumPy
-- pygame
-- scikit-learn
-
----
-
-## Output
-
-The notebook produces a **visual simulation of flocking agents** evolving dynamically over time.
-
-Such models are widely used to study:
-
-- swarm intelligence
-- collective motion
-- emergent behavior
-
----
-
-# Project 2 — Song Classification with k-Nearest Neighbors
+# Project 1 — Song Classification with k-Nearest Neighbors
 
 Location:
 
@@ -145,6 +103,45 @@ Install them with:
 ```bash
 pip install numpy pandas matplotlib seaborn scikit-learn pygame
 ```
+
+# Project 2 — Boids Flocking Simulation
+
+Location:
+
+```
+boids-simulation/boids.ipynb
+```
+
+This notebook implements a **Boids simulation**, an agent-based model that reproduces flocking behavior observed in birds and fish.
+
+The model is based on three fundamental rules applied to each agent:
+
+1. **Separation** — avoid crowding neighbors  
+2. **Alignment** — match velocity with nearby agents  
+3. **Cohesion** — move toward the local center of mass
+
+These simple rules produce **emergent collective behavior**.
+
+---
+
+## Technologies
+
+- Python
+- NumPy
+- pygame
+- scikit-learn
+
+---
+
+## Output
+
+The notebook produces a **visual simulation of flocking agents** evolving dynamically over time.
+
+Such models are widely used to study:
+
+- swarm intelligence
+- collective motion
+- emergent behavior
 
 ---
 
